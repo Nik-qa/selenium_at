@@ -17,6 +17,6 @@ time.sleep(5)
 submit_button = driver.find_element(By.CSS_SELECTOR, ".submit-submission")
 
 submit_button.click()
-time.sleep(5)
+time.sleep(6)
 
 driver.quit()
