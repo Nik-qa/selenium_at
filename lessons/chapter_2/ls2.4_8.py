@@ -31,6 +31,6 @@ try:
     print(alert_text)
 
 finally:
-    time.sleep(1)
+    # time.sleep(1)
     quit()
 
