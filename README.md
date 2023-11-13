@@ -1,12 +1,5 @@
 # selenium_at
 homework 
+where is my money?
 
-1
-
-2
-
-3
-
-Hello world 
-
-4
+What about my money?
