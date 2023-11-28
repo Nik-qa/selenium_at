@@ -25,7 +25,8 @@ class TestMainPage1():
         browser.get(link)
         browser.find_element(By.CSS_SELECTOR, ".basket-mini .btn-group > a")
 
-    @pytest.mark.xfail
+    @pytest.mark.xfail(reason='Fixing this bug right now')
     def test_guest_should_see_search_button_on_the_main_page(self, browser):
         browser.get(link)
         browser.find_element(By.CSS_SELECTOR, "button.favorite")
+        # pytest -rx -v test_fixture10.py (rx покажет комент в отчете)
